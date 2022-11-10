@@ -9,7 +9,7 @@ const minimumNumber = (array) => Math.min(...array);
 exports.minimumNumber = minimumNumber;
 const maximumNumber = (array) => Math.max(...array);
 exports.maximumNumber = maximumNumber;
-const randomElement = (array) => array[randomNumber(0, array.length)];
+const randomElement = (array) => array[randomNumber(0, array.length - 1)];
 exports.randomElement = randomElement;
 const randomAdjective = () => randomElement(adjectives);
 exports.randomAdjective = randomAdjective;

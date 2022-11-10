@@ -3,7 +3,7 @@ const animals = ["Albatross", "Alligator", "Ant", "Antelope", "Ape", "Baboon", "
 const randomNumber = (min = 0, max = Number.MAX_SAFE_INTEGER) => min + Math.floor(Math.random() * (max - min + 1));
 const minimumNumber = (array) => Math.min(...array);
 const maximumNumber = (array) => Math.max(...array);
-const randomElement = (array) => array[randomNumber(0, array.length)];
+const randomElement = (array) => array[randomNumber(0, array.length - 1)];
 const randomAdjective = () => randomElement(adjectives);
 const randomAnimal = () => randomElement(animals);
 const randomName = (separator = ' ') => `${randomAdjective()}${separator}${randomAnimal()}`;
