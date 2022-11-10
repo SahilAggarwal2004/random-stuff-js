@@ -10,7 +10,7 @@ const minimumNumber = (array: number[]): number => Math.min(...array)
 
 const maximumNumber = (array: number[]): number => Math.max(...array)
 
-const randomElement = (array: any[]) => array[randomNumber(0, array.length)]
+const randomElement = (array: any[]) => array[randomNumber(0, array.length - 1)]
 
 const randomAdjective = (): string => randomElement(adjectives)
 
