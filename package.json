@@ -1,6 +1,6 @@
 {
   "name": "random-stuff-js",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "An easy to use library export random javascript stuff for doing useful things.",
   "main": "./build/cjs/index.js",
   "module": "./build/esm/index.js",
