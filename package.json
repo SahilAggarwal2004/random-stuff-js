@@ -1,6 +1,6 @@
 {
   "name": "random-stuff-js",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "An easy to use library export random javascript stuff for doing useful things.",
   "main": "./build/cjs/index.js",
   "module": "./build/esm/index.js",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/SahilAggarwal2004/random-stuff-js/issues"
   },
-  "homepage": "https://github.com/SahilAggarwal2004/random-stuff-js#readme"
+  "homepage": "https://github.com/SahilAggarwal2004/random-stuff-js#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.13"
+  }
 }

@@ -12,6 +12,12 @@
     "rootDir": "./src",
     "outDir": "./build/esm",
     "allowSyntheticDefaultImports": true,
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+      "../node_modules/@types"
+    ],
     "lib": [
       "ES5",
       "ES2015",

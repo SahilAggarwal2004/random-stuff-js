@@ -1,10 +1,4 @@
-declare const probability: (p: number) => boolean;
-declare const randomNumber: (min?: number, max?: number) => number;
-declare const minimumNumber: (array: number[]) => number;
-declare const maximumNumber: (array: number[]) => number;
-declare const randomElement: (array: any[]) => any;
-declare const randomAdjective: () => string;
-declare const randomAnimal: () => string;
-declare const randomName: (separator?: string) => string;
-declare function generateOTP(digits?: number): string;
-export { probability, randomNumber, minimumNumber, maximumNumber, randomElement, randomAdjective, randomAnimal, randomName, generateOTP };
+import { maximumNumber, minimumNumber, probability } from "./math";
+import { generateOTP, randomAdjective, randomAnimal, randomElement, randomName, randomNumber } from "./random";
+import { wait } from "./time";
+export { generateOTP, maximumNumber, minimumNumber, probability, randomAdjective, randomAnimal, randomElement, randomName, randomNumber, wait };
